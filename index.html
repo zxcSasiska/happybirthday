@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お祝いのメッセージ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Видео в качестве фона -->
+    <video autoplay muted loop playsinline id="background-video">
+        <source src="IMG_3663.MOV" type="video/mp4">
+        Ваш браузер не поддерживает воспроизведение видео.
+    </video>
+
+    <!-- Контент страницы -->
+    <div id="japanese-card">
+        <h2 id="for-dad-text">父親へ</h2>
+        <h1 id="birthday-text">お誕生日おめでとうございます！</h1>
+        <button id="translationButton" onclick="translateText()">перевод</button>
+        <button id="toggleVideoButton" onclick="toggleBackgroundVideo()">Убрать видео</button> <!-- Новая кнопка -->
+    </div>
+    
+    <footer>
+        <div>
+            <p>© Коновалов Максим Антонович, 2025 г.　いつもありがとう！♥</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
